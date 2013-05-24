@@ -1,0 +1,17 @@
+{
+  "name": "inet",
+  "description": "provide function to convert IPv4 string addresses to numeric format and vice versa",
+  "version": "0.0.1",
+  "author": "T. Budiman <tbudiman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Webizly/plp.git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+      "underscore.string": "*"
+  },
+  "devDependencies": {
+    "should": "*"
+  }
+}
