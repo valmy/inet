@@ -5,7 +5,7 @@
   "author": "T. Budiman <tbudiman@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Webizly/inet.git"
+    "url": "git://github.com/mywebclass/inet.git"
   },
   "main": "./index.js",
   "dependencies": {
