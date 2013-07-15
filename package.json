@@ -1,7 +1,7 @@
 {
   "name": "inet",
-  "description": "provide function to convert IPv4 string addresses to numeric format and vice versa",
-  "version": "0.0.2",
+  "description": "functions (aton and ntoa) to convert IPv4 string addresses to numeric format and vice versa",
+  "version": "0.0.3",
   "author": "T. Budiman <tbudiman@gmail.com>",
   "repository": {
     "type": "git",
@@ -13,5 +13,6 @@
   },
   "devDependencies": {
     "should": "*"
-  }
+  },
+  "license": "MIT"
 }
