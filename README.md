@@ -3,7 +3,7 @@ inet
 
 Install with:
 
-```javascript
+```shell
 $ npm install inet
 ```
 
@@ -27,3 +27,12 @@ Given the dotted-quad representation of an IPv4 network address as a string, ret
 
 Given a numeric IPv4 network address in network byte order, returns the dotted-quad representation of the address as a binary string. ntoa() returns null if it does not understand its argument.
 
+Tests
+===============
+
+```shell
+    $ npm install should
+    $ npm install mocha
+    $ npm test
+```
+[![Build Status](https://travis-ci.org/mywebclass/inet.png)](https://travis-ci.org/mywebclass/inet)
