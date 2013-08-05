@@ -1,8 +1,6 @@
 /*jslint nomen: true */
 "use strict";
 
-var _s = require("underscore.string");
-
 function aton(str) {
     var laddr, i,
         parts = /^(\d+)\.(\d+)\.(\d+)\.(\d+)$/.exec(str);
@@ -30,7 +28,7 @@ function ntoa(laddr) {
         data[i] = laddr % 256;
         laddr = Math.floor(laddr / 256);
     }
-    return _s.join('.', data[0], data[1], data[2], data[3]);
+    return ''+data[0]+'.'+data[1]+'.'+data[2]+'.'+data[3];
 }
 
 exports.aton = aton;
